@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>FCC Survey Form</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">
+      Please take your time to fill out this form. I look forward to see your
+      feedback!
+    </p>
+
+    <form action="#" id="survey-form">
+      <label for="name" id="name-label">Enter your name: </label>
+      <input type="text" id="name" placeholder="John Doe" required>
+      <label for="email" id="email-label">Enter your email: </label>
+      <input type="email" id="email" placeholder="example@email.com" required>
+      <label for="number" id="number-label">Enter your age: </label>
+      <input type="number" id="number" placeholder="32" min="1" max="150">
+
+      <p>What animal do you prefer?</p>
+      <input type="checkbox" name="dog" value="true" id="dog">
+      <label for="dog">Dog</label>
+      <input type="checkbox" name="cat" value="true" id="cat">
+      <label for="cat">Cat</label>
+
+      <p>How did you get to this page?</p>
+      <input type="radio" name="reference" value="fcc" id="fcc">
+      <label for="fcc">FreeCodeCamp</label>
+      <input type="radio" name="reference" value="github" id="github">
+      <label for="github">Github</label>
+      <input type="radio" name="reference" value="google" id="stray">
+      <label for="fcc">Google (or other search engine)</label>
+      <input type="radio" name="reference" value="person" id="person">
+      <label for="fcc">Link from a friend</label>
+          
+
+      <label for="dropdown">Why are you taking this survey?</label>
+      <select name="cause" id="dropdown">
+        <option value="">Select an option</option>
+        <option value="curiosity">Just curious.</option>
+        <option value="checking">To check if it actually works.</option>
+        <option value="feedback">To leave a comment.</option>
+      </select>
+
+      <textarea>You can leave a comment here...</textarea>
+      <button id="submit">Submit</button>
+    </form>
+  </body>
+</html>
