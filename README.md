@@ -6,14 +6,14 @@ https://survey-form.freecodecamp.rocks/
 
 ### User Stories:
 
-1. You should have a page title in an ```h1 ```element with an ```id``` of ```title```
+1. You should have a page title in an ```h1```element with an ```id``` of ```title```
 2. You should have a short explanation in a ```p``` element with an ```id``` of ```description```
 3. You should have a ```form``` element with an ```id``` of ```survey-form```
 4. Inside the ```form``` element, you are required to enter your name in an ```input``` field that has an ```id``` of ```name``` and a ```type``` of ```text```
 5. Inside the ```form``` element, you are required to enter your ```email``` in an ```input``` field that has an ```id``` of ```email```
 6. If you enter an email that is not formatted correctly, you will see an HTML5 validation error
 7. Inside the form, you can enter a number in an ```input``` field that has an ```id``` of ```number```
-8. If you enter non-numbers in the number i```nput```, you will see an HTML5 validation error
+8. If you enter non-numbers in the number ```input```, you will see an HTML5 validation error
 9. If you enter numbers outside the range of the number ```input```, which are defined by the ```min``` and ```max``` attributes, you will see an HTML5 validation error
 10. For the name, email, and number ```input``` fields, you can see corresponding ```label``` elements in the form, that describe the purpose of each field with the following ids: ```id="name-label"```, ```id="email-label"```, and ```id="number-label"```
 11. For the name, email, and number ```input``` fields, you can see ```placeholder``` text that gives a description or instructions for each field
