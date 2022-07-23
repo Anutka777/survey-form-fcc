@@ -4,7 +4,11 @@
     <title>FCC Survey Form</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
     <h1 id="title">Survey Form</h1>
@@ -15,11 +19,11 @@
 
     <form action="#" id="survey-form">
       <label for="name" id="name-label">Enter your name: </label>
-      <input type="text" id="name" placeholder="John Doe" required>
+      <input type="text" class="main-info" id="name" placeholder="John Doe" required>
       <label for="email" id="email-label">Enter your email: </label>
-      <input type="email" id="email" placeholder="example@email.com" required>
+      <input type="email" class="main-info" id="email" placeholder="example@email.com" required>
       <label for="number" id="number-label">Enter your age: </label>
-      <input type="number" id="number" placeholder="32" min="1" max="150">
+      <input type="number" class="main-info" id="number" placeholder="32" min="1" max="150">
 
       <p>What animal do you prefer?</p>
       <input type="checkbox" name="dog" value="true" id="dog">
@@ -28,14 +32,24 @@
       <label for="cat">Cat</label>
 
       <p>How did you get to this page?</p>
-      <input type="radio" name="reference" value="fcc" id="fcc">
-      <label for="fcc">FreeCodeCamp</label>
-      <input type="radio" name="reference" value="github" id="github">
-      <label for="github">Github</label>
-      <input type="radio" name="reference" value="google" id="stray">
-      <label for="fcc">Google (or other search engine)</label>
-      <input type="radio" name="reference" value="person" id="person">
-      <label for="fcc">Link from a friend</label>
+      <ul>
+        <li>
+          <input type="radio" name="reference" value="fcc" id="fcc">
+          <label for="fcc">FreeCodeCamp</label>
+        </li>
+        <li>
+          <input type="radio" name="reference" value="github" id="github">
+          <label for="github">Github</label>
+        </li>
+        <li>
+          <input type="radio" name="reference" value="google" id="stray">
+          <label for="fcc">Google (or other search engine)</label>
+        </li>
+        <li>
+          <input type="radio" name="reference" value="person" id="person">
+          <label for="fcc">Link from a friend</label>
+        </li>
+      </ul>
           
 
       <label for="dropdown">Why are you taking this survey?</label>
