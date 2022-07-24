@@ -1,0 +1,72 @@
+body {
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2rem;
+  color: #ededed;
+}
+
+#title,
+#description,
+form {
+  margin: 1.5rem auto;
+  max-width: 600px;
+  min-width: 300px;
+  width: 70%;
+}
+
+#title,
+#description {
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+fieldset {
+  margin: 1rem 0;
+  padding: 0;
+  border: none;
+}
+
+legend {
+  padding-bottom: .5rem;
+}
+
+input.main-info,
+select,
+textarea,
+button {
+  display: block;
+  width: 100%;
+  margin-top: .5rem;
+  margin-bottom: 1rem;
+  padding: .5rem;
+  border: none;
+  outline: none;
+  background-color: #ededed;
+  color:rgba(12,116,117,1);
+  font-size: 100%;
+}
+
+input.main-info:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: 2px solid #ededed;
+}
+
+li input:focus {
+  outline: 1px solid #ededed;
+}
+
+#submit {
+  margin: 0 auto;
+  width: 33%;
+}
+
+#submit:hover {
+  outline: 2px solid #ededed;
+}
