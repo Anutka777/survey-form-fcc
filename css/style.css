@@ -72,3 +72,10 @@ li input:focus {
 #submit:hover {
   outline: 2px solid #ededed;
 }
+
+@media (max-width: 450px) {
+  input,
+  textarea {
+    max-width: 90%;
+  }
+}
